@@ -18,6 +18,10 @@ import sass from "../assets/sass.png";
 import typescript from "../assets/typescript.png";
 import vue from "../assets/vue.png";
 
+import angularCircle from "../assets/angular-circle.png"
+import vueCircle from "../assets/vue-circle.png"
+import typescriptCircle from "../assets/typescript-circle.png"
+
 import about01 from "../assets/about01.png";
 import about02 from "../assets/about02.png";
 import about03 from "../assets/about03.png";
@@ -68,7 +72,10 @@ const images = {
   bolt,
   nb,
   skype,
-  spotify
+  spotify,
+  angularCircle,
+  vueCircle,
+  typescriptCircle
 };
 
 export default images;
