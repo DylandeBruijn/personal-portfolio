@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { motion } from "framer-motion";
 
-import images from "../../constants/images";
 import menu from "../../constants/menu";
 import "./Navbar.scss";
 
@@ -12,7 +11,7 @@ const Navbar = () => {
     return (
         <nav className="app__navbar">
             <div className="app__navbar-logo">
-                <img src={images.logo} alt="logo" />
+                <h1>DLN.</h1>
             </div>
             <ul className="app__navbar-links">
                 {menu.map((item) => (
